@@ -18,9 +18,7 @@ contadorcanciones = 0
 
 
 
-Usuarios.append(Usuario('Rodri','Poron','amrodri','1234','Administrador'))
 Usuarios.append(Usuario('Usuario','Maestro','admin','admin', 'Administrador'))
-Usuarios.append(Usuario('Alisson','Poron','alisson','1234', 'Cliente'))
 
 @app.route('/', methods=['GET'])
 def index():
